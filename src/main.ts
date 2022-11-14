@@ -8,6 +8,6 @@ export default class ObsiDOOM extends Plugin {
 			SIDE_PANEL_ID, (leaf) => new SidePanel(leaf)
 		);
 
-		SidePanel.activate(this.app.workspace);
+		await SidePanel.activate(this.app.workspace);
 	}
 }
