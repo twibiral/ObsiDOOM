@@ -3,7 +3,7 @@
 	"name": "obsidian-doom",
 	"version": "0.0.1",
 	"minAppVersion": "0.15.0",
-	"description": "Play the well-known FPS game DOOM in your Obsidian app.",
+	"description": "Play the well-known FPS game DOOM in your Obsidian app. You can also play Prince of Persia, Mortal Combat, GTA, Sim City, and Need for Speed.",
 	"author": "twibiral",
 	"authorUrl": "tim-wibiral.de",
 	"isDesktopOnly": true
