@@ -1,4 +1,4 @@
-import { App, Editor, MarkdownView, Modal, Notice, Plugin, PluginSettingTab, Setting } from 'obsidian';
+import {Plugin} from 'obsidian';
 import SidePanel, {SIDE_PANEL_ID} from "./SidePanel";
 
 
@@ -9,9 +9,5 @@ export default class ObsiDOOM extends Plugin {
 		);
 
 		SidePanel.activate(this.app.workspace);
-	}
-
-	onunload() {
-
 	}
 }

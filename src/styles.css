@@ -4,3 +4,27 @@
 	justify-content: center;
 	background: red;
 }
+
+button.doom-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 2em auto;
+}
+
+button.doom-button-disabled {
+	display: none;
+}
+
+.doom-header {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.doom-dropdown {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
