@@ -28,3 +28,10 @@ div.doom-dropdown {
 	margin-top: 2em;
 	margin-bottom: 2em;
 }
+
+#gameIFrame {
+	position: relative;
+	height: 70vh;
+	width: 100%;
+	border: 1px solid black;
+}

@@ -151,10 +151,6 @@ export default class SidePanel extends ItemView {
 	generateGameIFrame(gameName: string = "DOOM"): HTMLIFrameElement {
 		const gameIFrame = document.createElement("iframe");
 		gameIFrame.id = "gameIFrame";
-		gameIFrame.style.position = "relative";
-		gameIFrame.style.height = "70vh";
-		gameIFrame.style.width = "100%";
-		gameIFrame.style.border = "1px solid black";
 		gameIFrame.setAttr("src", GAME_URLS[gameName]);
 		gameIFrame.toggleAttribute("allowfullscreen");
 
