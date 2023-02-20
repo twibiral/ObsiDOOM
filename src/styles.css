@@ -35,3 +35,8 @@ div.doom-dropdown {
 	width: 100%;
 	border: 1px solid black;
 }
+
+#game-select {
+	margin-left: 1em;
+	margin-right: 1em;
+}
