@@ -3,16 +3,7 @@ import {ItemView, Workspace, WorkspaceLeaf} from "obsidian";
 
 export const SIDE_PANEL_ID = "ObsiDOOM Side Panel";
 
-const GAME_URLS = JSON.parse(
-	`{
-"DOOM": "https://dos.zone/player/?bundleUrl=https%3A%2F%2Fcdn.dos.zone%2Fcustom%2Fdos%2Fdoom.jsdos?anonymous=1",
-"Prince of Persia": "https://dos.zone/player/?bundleUrl=https%3A%2F%2Fcdn.dos.zone%2Foriginal%2F2X%2F1%2F1179a7c9e05b1679333ed6db08e7884f6e86c155.jsdos?anonymous=1",
-"Mortal Combat": "https://dos.zone/player/?bundleUrl=https%3A%2F%2Fcdn.dos.zone%2Foriginal%2F2X%2F8%2F872f3668c36085d0b1ace46872145285364ee628.jsdos?anonymous=1",
-"GTA": "https://dos.zone/player/?bundleUrl=https%3A%2F%2Fcdn.dos.zone%2Fcustom%2Fdos%2Fgta-mobile.jsdos?anonymous=1",
-"Sim City": "https://dos.zone/player/?bundleUrl=https%3A%2F%2Fcdn.dos.zone%2Foriginal%2F2X%2F7%2F744842062905f72648a4d492ccc2526d039b3702.jsdos?anonymous=1",
-"Need for Speed": "https://dos.zone/player/?bundleUrl=https%3A%2F%2Fcdn.dos.zone%2Fcustom%2Fdos%2Fnfs.jsdos?anonymous=1"
-}`
-);
+const GAME_URLS = require('./GAME_URLS.json');
 
 export default class SidePanel extends ItemView {
 	private readonly endGameButton: HTMLButtonElement = document.createElement("button");
