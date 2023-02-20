@@ -147,12 +147,4 @@ export default class SidePanel extends ItemView {
 
 		return gameIFrame;
 	}
-
-	async onClose() {
-		for (let child of Array.from(this.contentEl.children)) {
-			child.remove();
-		}
-		this.contentEl.empty();
-		this.contentEl.remove()
-	}
 }
