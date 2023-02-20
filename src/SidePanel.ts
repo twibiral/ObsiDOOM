@@ -3,7 +3,7 @@ import {ItemView, Workspace, WorkspaceLeaf} from "obsidian";
 
 export const SIDE_PANEL_ID = "ObsiDOOM Side Panel";
 
-const GAME_URLS = require('./GAME_URLS.json');
+const GAME_URLS = require('../GAME_URLS.json');
 
 export default class SidePanel extends ItemView {
 	private readonly endGameButton: HTMLButtonElement = document.createElement("button");
@@ -43,7 +43,7 @@ export default class SidePanel extends ItemView {
 		// Create dropdown menu to select games
 		this.dropDownDiv.addClass("doom-dropdown");
 		const label = document.createElement("label");
-		label.setText("Select Game:  ");
+		label.setText("Select Game:");
 
 		const select = document.createElement("select");
 		select.id = "game-select";
@@ -56,8 +56,8 @@ export default class SidePanel extends ItemView {
 			select.appendChild(option);
 		}
 
-		select.onchange = (ev) => {
-			console.log(select.value);
+		select.onchange = (_) => {
+			console.debug(`[ObsiDOOM] Selected game: ${select.value}`);
 			this.gameDiv.children[0].remove();
 			this.disableButton(this.openGameButton);
 			this.gameDiv.appendChild(
