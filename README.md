@@ -40,3 +40,10 @@ or create an issue with the link to the game and I'll add it.
 
 ![Sim City](https://github.com/twibiral/ObsiDOOM/blob/master/images/SimCity.png)
 
+
+<br><br><br><br><br>
+
+
+<div align='center'>
+<a href="https://www.buymeacoffee.com/timwibiral" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+</div>
