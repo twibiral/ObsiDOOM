@@ -1,7 +1,7 @@
 # ObsiDOOM
 <div align="right">
 
-![Obsidian Downloads](https://img.shields.io/badge/dynamic/json?color=8572db&labelColor=1e1e1e&label=Downloads&query=$['ObsiDOOM'].downloads&url=https://raw.githubusercontent.com/obsidianmd/obsidian-releases/master/community-plugin-stats.json) 
+![Obsidian Downloads](https://img.shields.io/badge/dynamic/json?color=8572db&labelColor=1e1e1e&label=Downloads&query=$['obsidoom'].downloads&url=https://raw.githubusercontent.com/obsidianmd/obsidian-releases/master/community-plugin-stats.json) 
 ![GitHub package.json version](https://img.shields.io/github/package-json/version/twibiral/obsidoom?color=8572db&labelColor=1e1e1e&label=Current%20Version) 
 ![GitHub Release Date](https://img.shields.io/github/release-date/twibiral/obsidoom?color=8572db&labelColor=1e1e1e&label=Latest%20Release)
 
