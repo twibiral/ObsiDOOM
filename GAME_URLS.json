@@ -1,8 +1,8 @@
 {
-	"DOOM": "https://dos.zone/player/?bundleUrl=https%3A%2F%2Fcdn.dos.zone%2Fcustom%2Fdos%2Fdoom.jsdos?anonymous=1",
-	"PRINCE OF PERSIA": "https://dos.zone/player/?bundleUrl=https%3A%2F%2Fcdn.dos.zone%2Foriginal%2F2X%2F1%2F1179a7c9e05b1679333ed6db08e7884f6e86c155.jsdos?anonymous=1",
-	"MORTAL COMBAT": "https://dos.zone/player/?bundleUrl=https%3A%2F%2Fcdn.dos.zone%2Foriginal%2F2X%2F8%2F872f3668c36085d0b1ace46872145285364ee628.jsdos?anonymous=1",
-	"GTA": "https://dos.zone/player/?bundleUrl=https%3A%2F%2Fcdn.dos.zone%2Fcustom%2Fdos%2Fgta-mobile.jsdos?anonymous=1",
-	"SIM CITY": "https://dos.zone/player/?bundleUrl=https%3A%2F%2Fcdn.dos.zone%2Foriginal%2F2X%2F7%2F744842062905f72648a4d492ccc2526d039b3702.jsdos?anonymous=1",
-	"NEED FOR SPEED": "https://dos.zone/player/?bundleUrl=https%3A%2F%2Fcdn.dos.zone%2Fcustom%2Fdos%2Fnfs.jsdos?anonymous=1"
+	"DOOM": "https://dos.zone/player/?bundleUrl=https://cdn.dos.zone/custom/dos/doom.jsdos?anonymous=1",
+	"PRINCE OF PERSIA": "https://dos.zone/player/?bundleUrl=https://cdn.dos.zone/original/2X/1/1179a7c9e05b1679333ed6db08e7884f6e86c155.jsdos?anonymous=1",
+	"MORTAL COMBAT": "https://dos.zone/player/?bundleUrl=https://cdn.dos.zone/original/2X/8/872f3668c36085d0b1ace46872145285364ee628.jsdos?anonymous=1",
+	"GTA": "https://dos.zone/player/?bundleUrl=https://cdn.dos.zone/custom/dos/gta-mobile.jsdos?anonymous=1",
+	"SIM CITY": "https://dos.zone/player/?bundleUrl=https://cdn.dos.zone/original/2X/7/744842062905f72648a4d492ccc2526d039b3702.jsdos?anonymous=1",
+	"NEED FOR SPEED": "https://dos.zone/player/?bundleUrl=https://cdn.dos.zone/custom/dos/nfs.jsdos?anonymous=1"
 }
