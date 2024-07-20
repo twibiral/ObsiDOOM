@@ -8,6 +8,7 @@ const GAME_URLS = require('../GAME_URLS.json');
 export default class SidePanel extends ItemView {
 	private readonly endGameButton: HTMLButtonElement = document.createElement("button");
 	private readonly openGameButton: HTMLButtonElement = document.createElement("button");
+	private gameSelect: HTMLSelectElement = document.createElement("select");
 	private gameDiv: HTMLDivElement = document.createElement("div");
 	private dropDownDiv: HTMLDivElement = document.createElement("div");
 
@@ -34,7 +35,7 @@ export default class SidePanel extends ItemView {
 			this.disableButton(this.openGameButton);
 
 			this.gameDiv.appendChild(
-				this.generateGameIFrame()
+				this.generateGameIFrame(this.gameSelect.value)
 			);
 
 			this.enableButton(this.endGameButton);
@@ -45,29 +46,28 @@ export default class SidePanel extends ItemView {
 		const label = document.createElement("label");
 		label.setText("Select Game:");
 
-		const select = document.createElement("select");
-		select.id = "game-select";
-		select.name = "game-select";
+		this.gameSelect.id = "game-select";
+		this.gameSelect.name = "game-select";
 
 		for (const game in GAME_URLS) {
 			const option = document.createElement("option");
 			option.value = game;
 			option.text = game;
-			select.appendChild(option);
+			this.gameSelect.appendChild(option);
 		}
 
-		select.onchange = (_) => {
-			console.debug(`[ObsiDOOM] Selected game: ${select.value}`);
+		this.gameSelect.onchange = (_) => {
+			console.debug(`[ObsiDOOM] Selected game: ${this.gameSelect.value}`);
 			this.gameDiv.children[0].remove();
 			this.disableButton(this.openGameButton);
 			this.gameDiv.appendChild(
-				this.generateGameIFrame(select.value)
+				this.generateGameIFrame(this.gameSelect.value)
 			);
 			this.enableButton(this.endGameButton);
 		}
 
 		this.dropDownDiv.appendChild(label);
-		this.dropDownDiv.appendChild(select);
+		this.dropDownDiv.appendChild(this.gameSelect);
 	}
 
 	/**
