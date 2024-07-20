@@ -78,7 +78,7 @@ export default class SidePanel extends ItemView {
 	static async activate(workspace: Workspace) {
 		workspace.detachLeavesOfType(SIDE_PANEL_ID);
 
-		await workspace.getRightLeaf(false).setViewState({
+		await workspace.getRightLeaf(false)?.setViewState({
 			type: SIDE_PANEL_ID,
 			active: true,
 		});
