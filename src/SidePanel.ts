@@ -108,11 +108,6 @@ export default class SidePanel extends ItemView {
 
 		const container = this.contentEl;
 
-		const header = document.createElement("h3");
-		header.textContent = "DOOM";
-		header.addClass("doom-header");
-		container.appendChild(header);
-
 		container.appendChild(this.dropDownDiv);
 
 		container.appendChild(this.gameDiv);
