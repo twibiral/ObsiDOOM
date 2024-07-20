@@ -7,9 +7,9 @@
 
 </div>
 
-Play DOOM and other classic games in you Obsidian.md vault.
+Play DOOM and other classic games in your Obsidian.md vault.
 
-Supported Games: DOOM, Prince of Persia, Mortal Combat, GTA, Sim City, and Need for Speed.
+Supported Games: DOOM, DOOM II, Wolfenstein 3D, Heretic, Prince of Persia, Mortal Combat, GTA, Sim City, Need for Speed, Tyrian 2000, The Lost Vikings, and Out of This World.
 
 This plugin is based on [js-dos](https://github.com/caiiiycuk/js-dos) using [DOS Zone](http://dos.zone/) to host the games.
 
@@ -33,15 +33,27 @@ or create an issue with the link to the game and I'll add it.
 
 ## More Games!
 
+![DOOM II](images/DOOM2.png)
+
 ![GTA](images/GTA.png)
+
+![Heretic](images/Heretic.png)
+
+![The Lost Vikings](images/TheLostVikings.png)
 
 ![Mortal Combat](images/MortalCombat.png)
 
 ![Need for Speed](images/NeedForSpeed.png)
 
+![Out of This World](images/OutOfThisWorld.png)
+
 ![Prince of Persia](images/PrinceOfPersia.png)
 
 ![Sim City](images/SimCity.png)
+
+![Tyrian 2000](images/Tyrian2000.png)
+
+![Wolfenstein 3D](images/Wolfenstein3D.png)
 
 
 <br><br><br><br><br>
