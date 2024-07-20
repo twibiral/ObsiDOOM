@@ -1,7 +1,7 @@
 import {ItemView, Workspace, WorkspaceLeaf} from "obsidian";
 
 
-export const SIDE_PANEL_ID = "ObsiDOOM Side Panel";
+export const SIDE_PANEL_ID = "obsidoom";
 
 const GAME_URLS = require('../GAME_URLS.json');
 
