@@ -57,7 +57,6 @@ export default class SidePanel extends ItemView {
 		}
 
 		this.gameSelect.onchange = (_) => {
-			console.debug(`[ObsiDOOM] Selected game: ${this.gameSelect.value}`);
 			this.gameDiv.children[0].remove();
 			this.disableButton(this.openGameButton);
 			this.gameDiv.appendChild(
@@ -104,8 +103,6 @@ export default class SidePanel extends ItemView {
 	 * Set up the HTML of the view
 	 */
 	async onOpen() {
-		console.log("Opened ObsiDOOM Side Panel");
-
 		const container = this.contentEl;
 
 		container.appendChild(this.dropDownDiv);
