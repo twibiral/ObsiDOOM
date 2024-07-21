@@ -22,7 +22,7 @@ export default class SidePanel extends ItemView {
 		this.endGameButton.onClickEvent(() => {
 			this.disableButton(this.endGameButton);
 
-			this.gameDiv.children[0].remove();
+			this.gameDiv.firstChild?.remove();
 
 			this.enableButton(this.openGameButton);
 		});
@@ -57,7 +57,7 @@ export default class SidePanel extends ItemView {
 		}
 
 		this.gameSelect.onchange = (_) => {
-			this.gameDiv.children[0].remove();
+			this.gameDiv.firstChild?.remove();
 			this.disableButton(this.openGameButton);
 			this.gameDiv.appendChild(
 				this.generateGameIFrame(this.gameSelect.value)
