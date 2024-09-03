@@ -1,7 +1,7 @@
 {
 	"id": "obsidoom",
 	"name": "ObsiDOOM",
-	"version": "1.1.1",
+	"version": "1.2.0",
 	"minAppVersion": "0.15.0",
 	"description": "Play DOOM and many other retro games in your Obsidian app. You can also play Prince of Persia, Mortal Combat, GTA, Sim City, and Need for Speed.",
 	"author": "twibiral",
