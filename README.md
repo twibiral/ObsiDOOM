@@ -7,21 +7,21 @@
 
 </div>
 
-Play DOOM and other classic games in you Obsidian.md vault.
+Play DOOM and other classic games in your Obsidian.md vault.
 
-Supported Games: DOOM, Prince of Persia, Mortal Combat, GTA, Sim City, and Need for Speed.
+Supported Games: DOOM, DOOM II, Wolfenstein 3D, Heretic, Prince of Persia, Mortal Combat, GTA, Sim City, Need for Speed, Tyrian 2000, The Lost Vikings, and Out of This World.
 
 This plugin is based on [js-dos](https://github.com/caiiiycuk/js-dos) using [DOS Zone](http://dos.zone/) to host the games.
 
 
-![Screenshot showing how DOOM is played in the vault.](https://github.com/twibiral/ObsiDOOM/blob/master/images/ObsiDOOM-Screenshot.png)
+![Screenshot showing how DOOM is played in the vault.](images/ObsiDOOM-Screenshot.png)
 
 
 ## Changing Settings and Muting the Game
 
 Use the side panel within the game view to change settings, mute the game, save and load games, stop the game, and more.
 
-![Screenshot showing the settings in the side panel.](https://github.com/twibiral/ObsiDOOM/blob/master/images/DOOM-Settings.png)
+![Screenshot showing the settings in the side panel.](images/DOOM-Settings.png)
 
 
 ## Can I Play Other Games?
@@ -33,20 +33,41 @@ or create an issue with the link to the game and I'll add it.
 
 ## More Games!
 
-![GTA](https://github.com/twibiral/ObsiDOOM/blob/master/images/GTA.png)
+![DOOM II](images/DOOM2.png)
 
-![Mortal Combat](https://github.com/twibiral/ObsiDOOM/blob/master/images/MortalCombat.png)
+![GTA](images/GTA.png)
 
-![Need for Speed](https://github.com/twibiral/ObsiDOOM/blob/master/images/NeedForSpeed.png)
+![Heretic](images/Heretic.png)
 
-![Prince of Persia](https://github.com/twibiral/ObsiDOOM/blob/master/images/PrinceOfPersia.png)
+![The Lost Vikings](images/TheLostVikings.png)
 
-![Sim City](https://github.com/twibiral/ObsiDOOM/blob/master/images/SimCity.png)
+![Mortal Combat](images/MortalCombat.png)
+
+![Need for Speed](images/NeedForSpeed.png)
+
+![Out of This World](images/OutOfThisWorld.png)
+
+![Prince of Persia](images/PrinceOfPersia.png)
+
+![Sim City](images/SimCity.png)
+
+![Tyrian 2000](images/Tyrian2000.png)
+
+![Wolfenstein 3D](images/Wolfenstein3D.png)
 
 
-<br><br><br><br><br>
+<br><br>
 
 
 <div align='center'>
 <a href="https://www.buymeacoffee.com/timwibiral" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 </div>
+
+
+<br><br>
+
+## Thanks to all Contributors! ❤
+
+<a href="https://github.com/twibiral/obsidoom/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=twibiral/obsidoom" />
+</a>
