@@ -1,6 +1,7 @@
 {
 	"DOOM": "https://dos.zone/player/?bundleUrl=https://cdn.dos.zone/custom/dos/doom.jsdos?anonymous=1",
 	"DOOM II": "https://dos.zone/player/?bundleUrl=https://cdn.dos.zone/custom/dos/doom2.jsdos?anonymous=1",
+	"DUKE NUKEM 3D": "https://dos.zone/player/?bundleUrl=https://br.cdn.dos.zone/ipx/duke3d/duke3d_ipx.jsdos?anonymous=1",
 	"WOLFENSTEIN 3D": "https://dos.zone/player/?bundleUrl=https://cdn.dos.zone/original/2X/a/ac888d1660aa253f0ed53bd6c962c894125aaa19.jsdos?anonymous=1",
 	"HERETIC": "https://dos.zone/player/?bundleUrl=https://cdn.dos.zone/custom/dos/heretic.jsdos?anonymous=1",
 	"PRINCE OF PERSIA": "https://dos.zone/player/?bundleUrl=https://cdn.dos.zone/original/2X/1/1179a7c9e05b1679333ed6db08e7884f6e86c155.jsdos?anonymous=1",
@@ -8,7 +9,11 @@
 	"GTA": "https://dos.zone/player/?bundleUrl=https://cdn.dos.zone/custom/dos/gta-mobile.jsdos?anonymous=1",
 	"SIM CITY": "https://dos.zone/player/?bundleUrl=https://cdn.dos.zone/original/2X/7/744842062905f72648a4d492ccc2526d039b3702.jsdos?anonymous=1",
 	"NEED FOR SPEED": "https://dos.zone/player/?bundleUrl=https://cdn.dos.zone/custom/dos/nfs.jsdos?anonymous=1",
+	"TETRIS CLASSIC": "https://dos.zone/player/?bundleUrl=https://cdn.dos.zone/custom/dos/tetris-classic.jsdos?anonymous=1",
 	"TYRIAN 2000": "https://dos.zone/player/?bundleUrl=https://cdn.dos.zone/custom/dos/tyrian-2000.jsdos?anonymous=1",
 	"THE LOST VIKINGS": "https://dos.zone/player/?bundleUrl=https://cdn.dos.zone/original/2X/1/1b063b2520052ebb504184667ac95e72423331de.jsdos?anonymous=1",
-	"OUT OF THIS WORLD": "https://dos.zone/player/?bundleUrl=https://cdn.dos.zone/original/2X/1/1031eb810e8b648fc5f777b3bd9cbc0187927fd4.jsdos?anonymous=1"
+	"OUT OF THIS WORLD": "https://dos.zone/player/?bundleUrl=https://cdn.dos.zone/original/2X/1/1031eb810e8b648fc5f777b3bd9cbc0187927fd4.jsdos?anonymous=1",
+	"WARCRAFT": "https://dos.zone/player/?bundleUrl=https://cdn.dos.zone/custom/dos/warcraft.jsdos?anonymous=1",
+	"WARCRAFT II": "https://dos.zone/player/?bundleUrl=https://cdn.dos.zone/custom/dos/war2.jsdos?anonymous=1",
+	"ZANGBAND": "https://dos.zone/player/?bundleUrl=https://cdn.dos.zone/custom/dos/zangband.jsdos?anonymous=1"
 }
