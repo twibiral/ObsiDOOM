@@ -7,6 +7,11 @@
 
 </div>
 
+
+> [!Important]
+> Unfortunately, the pluign is a bit broken right now. 
+> We used the webinterface of https://dos.zone but they changed it which broke compatibility. If you have a fix, please feel free to create a PR. I will try o fix it when I have time. 
+
 Play DOOM and other classic games in your Obsidian.md vault.
 
 Supported Games: DOOM, DOOM II, Wolfenstein 3D, Heretic, Prince of Persia, Mortal Combat, GTA, Sim City, Need for Speed, Tyrian 2000, The Lost Vikings, and Out of This World.
